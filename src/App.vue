@@ -1,10 +1,15 @@
 <template>
-  <h1>Olá mundo!</h1>
+  <NavBar />
 </template>
 
 <script>
+import NavBar from './components/NavBar.vue'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    NavBar,
+  }
 }
 </script>
 
@@ -15,6 +20,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
