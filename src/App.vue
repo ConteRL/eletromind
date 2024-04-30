@@ -1,14 +1,17 @@
 <template>
   <NavBar />
+  <Welcome />
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
+import Welcome from './components/Welcome.vue'
 
 export default {
   name: 'App',
   components: {
     NavBar,
+    Welcome
   }
 }
 </script>
@@ -20,5 +23,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+
+  width: 100vw;
+  height: 100vh;
 }
 </style>

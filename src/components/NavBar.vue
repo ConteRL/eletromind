@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" id="navbar">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Eletromind</a>
+      <a class="navbar-brand" href="#"><span style="color: #00A7EA">Eletro</span>mind</a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
