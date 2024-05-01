@@ -4,7 +4,7 @@
     <div class="row align-items-center h-75">
       <div class="col-5 mx-0 px-0">
         <div class="text-start text-light">
-          <h1 id="welcome-phrase">Wellcome!!</h1>
+          <h1 id="welcome-phrase">Welcome!!</h1>
           <h2>Come and learn more about electronics and computing.</h2>
         </div>
       </div>
