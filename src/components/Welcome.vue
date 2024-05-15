@@ -18,7 +18,10 @@
 
 <script>
 export default {
-    name: 'Welcome'
+    name: 'Welcome',
+    components: {
+
+    }
 }
 </script>
 
@@ -27,7 +30,7 @@ export default {
 
 #home-start {
   width: 100vw;
-  height: 80vh;
+  height: 75vh;
   position: relative;
   background-color: #2B3A41;
   background-image: url("./../assets/home_circuit_bg.png");

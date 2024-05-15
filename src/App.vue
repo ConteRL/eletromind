@@ -1,17 +1,20 @@
 <template>
   <NavBar />
   <Welcome />
+  <Quote/>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
 import Welcome from './components/Welcome.vue'
+import Quote from './components/Quote.vue'
 
 export default {
   name: 'App',
   components: {
     NavBar,
-    Welcome
+    Welcome,
+    Quote
   }
 }
 </script>
